@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#0D1117] text-zinc-50 font-sans;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .container {
+    @apply mx-auto  px-8;
+  }
+
+  .transition {
+    @apply transition-all;
+  }
+
+  .opacity {
+    @apply opacity-100 scale-100;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "retro";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./assets/Retro-Gaming.ttf") format("truetype");
+  }
+}
