@@ -5,7 +5,7 @@ import email from "../assets/email.png";
 
 const Contact = () => {
   return (
-    <section className="min-h-[800px] relative ">
+    <section className="min-h-[800px] relative " id="contact">
       <img
         draggable="false"
         className="absolute left-0 bottom-0 w-full object-cover h-auto z-0"
