@@ -5,6 +5,7 @@ import pokedex from "../assets/portfolio/pokedex.png";
 import aiqode from "../assets/portfolio/aiqode.png";
 import bee from "../assets/portfolio/bee.png";
 import store from "../assets/portfolio/comfy-store.png";
+import game from "../assets/portfolio/game.png";
 import histopia from "../assets/portfolio/histopia.png";
 import harrypotter from "../assets/portfolio/harrypotter.png";
 import { animate, utils, onScroll, stagger } from "animejs";
@@ -44,6 +45,15 @@ const projects = [
     description:
       "React Training Project Welcome to Comfy Store, a React-based e-commerce project created as part of my React training journey! This app demonstrates essential React concepts and patterns, including state management, custom hooks, context API, and integration with third-party APIs.",
     link: "https://comfy-store-31r7uf1r6-cys-projects-66803da9.vercel.app/",
+    imageClass: "h-64",
+  },
+  {
+    title: "Game Explorer",
+    image: game,
+    stack: ["ReactJS", "Tailwind"],
+    description:
+      "Game Explorer is a React-based web application that lets users browse and search for video games using the RAWG Video Games Database API.",
+    link: "https://game-explorer-chi.vercel.app",
     imageClass: "h-64",
   },
   // {
